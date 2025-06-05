@@ -1,0 +1,21 @@
+timestamp,logGroup,logStream,eventId,message
+2025-05-28T18:57:32.688084Z,/aws/ec2,2025/05/28/[$LATEST]logStreamId0,eventId0,EC2 instance i-1234567890abcdef0 was launched with a user-data script
+2025-05-28T18:56:32.688125Z,/aws/iam,2025/05/28/[$PREV]logStreamId1,eventId1,EC2 instance i-1234567890abcdef0 was launched with a user-data script
+2025-05-28T18:55:32.688140Z,/aws/iam,2025/05/28/[$PREV]logStreamId2,eventId2,Detected unusual API call: DeleteBucket for bucket 'finance-records'
+2025-05-28T18:54:32.688149Z,/aws/ec2,2025/05/28/[$PREV]logStreamId3,eventId3,IAM policy 'FullAccess' was attached to user root
+2025-05-28T18:53:32.688163Z,/aws/s3,2025/05/28/[$LATEST]logStreamId4,eventId4,Detected unusual API call: DeleteBucket for bucket 'finance-records'
+2025-05-28T18:52:32.688179Z,/aws/ec2,2025/05/28/[$LATEST]logStreamId5,eventId5,Role arn:aws:iam::123456789012:role/SecretAccessRole assumed by EC2 instance
+2025-05-28T18:51:32.688194Z,/aws/iam,2025/05/28/[$LATEST]logStreamId6,eventId6,Access key AKIAIOSFODNN7EXAMPLE was used to access S3 bucket confidential-data
+2025-05-28T18:50:32.688210Z,/aws/s3,2025/05/28/[$LATEST]logStreamId7,eventId7,Access key AKIAIOSFODNN7EXAMPLE was used to access S3 bucket confidential-data
+2025-05-28T18:49:32.688221Z,/aws/ec2,2025/05/28/[$PREV]logStreamId8,eventId8,Session token used to call GetObject on bucket 'pii-data-store'
+2025-05-28T18:48:32.688236Z,/aws/ec2,2025/05/28/[$LATEST]logStreamId9,eventId9,Unusual location login attempt for user jane.doe@example.com from 203.0.113.45
+2025-05-28T18:47:32.688254Z,/aws/s3,2025/05/28/[$LATEST]logStreamId10,eventId10,EC2 instance i-1234567890abcdef0 was launched with a user-data script
+2025-05-28T18:46:32.688262Z,/aws/s3,2025/05/28/[$PREV]logStreamId11,eventId11,Detected unusual API call: DeleteBucket for bucket 'finance-records'
+2025-05-28T18:45:32.688271Z,/aws/ec2,2025/05/28/[$LATEST]logStreamId12,eventId12,EC2 instance i-1234567890abcdef0 was launched with a user-data script
+2025-05-28T18:44:32.688279Z,/aws/ec2,2025/05/28/[$PREV]logStreamId13,eventId13,Role arn:aws:iam::123456789012:role/SecretAccessRole assumed by EC2 instance
+2025-05-28T18:43:32.688287Z,/aws/s3,2025/05/28/[$PREV]logStreamId14,eventId14,Detected unusual API call: DeleteBucket for bucket 'finance-records'
+2025-05-28T18:42:32.688295Z,/aws/s3,2025/05/28/[$LATEST]logStreamId15,eventId15,User dev-team uploaded file secrets.env to bucket 'project-x-private'
+2025-05-28T18:41:32.688304Z,/aws/iam,2025/05/28/[$PREV]logStreamId16,eventId16,S3 bucket 'client-secrets' was accessed from IP 192.168.1.100
+2025-05-28T18:40:32.688312Z,/aws/s3,2025/05/28/[$PREV]logStreamId17,eventId17,EC2 instance i-1234567890abcdef0 was launched with a user-data script
+2025-05-28T18:39:32.688320Z,/aws/iam,2025/05/28/[$PREV]logStreamId18,eventId18,Unusual location login attempt for user jane.doe@example.com from 203.0.113.45
+2025-05-28T18:38:32.688329Z,/aws/ec2,2025/05/28/[$LATEST]logStreamId19,eventId19,User dev-team uploaded file secrets.env to bucket 'project-x-private'
